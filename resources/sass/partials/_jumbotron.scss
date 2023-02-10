@@ -1,0 +1,9 @@
+.jumboWrapper {
+  max-height: 500px;
+  overflow: hidden;
+
+  img {
+    object-fit: cover;
+    object-position: center;
+  }
+}

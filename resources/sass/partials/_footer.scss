@@ -1,0 +1,59 @@
+#topFooter {
+  background-image: url("/img/footer-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  footer {
+    padding: 40px 0;
+    position: relative;
+    overflow: hidden;
+
+    .listWrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      max-width: calc(100% / 3);
+
+      ul {
+        padding: 20px;
+
+        h2 {
+          color: white;
+          padding: 10px 0;
+        }
+
+        a {
+          color: white;
+          font-size: 20px;
+          text-decoration: none;
+          padding: 10px 0;
+        }
+      }
+    }
+
+    .logo {
+      position: absolute;
+      right: 0;
+      top: -3%;
+      max-width: 560px;
+    }
+  }
+}
+
+#bottomFooter {
+  background-color: rgb(28, 28, 33);
+  padding: 20px 0;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+
+    button {
+      background-color: rgb(28, 28, 33);
+      color: white;
+      text-transform: uppercase;
+      padding: 10px;
+      border-color: rgb(73, 119, 203);
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.sectionDetail {
+  background-color: rgb(28, 28, 28);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+  gap: 30px;
+  color: white;
+  flex-wrap: wrap;
+
+  .wrapImg{
+    width: 500px;
+
+
+    img{
+      width: 100%;
+      border: 2px solid #0c7cec;
+      padding: 5px;
+      border-radius: 10px;
+    }
+  }
+
+  .wrapDetails{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    max-width: 600px;
+    align-self: center;
+
+    h1{
+      font-size: 80px;
+    }
+
+    p{
+      font-size: 20px;
+    }
+
+    h3{
+      font-size: 30px;
+    }
+
+  }
+}

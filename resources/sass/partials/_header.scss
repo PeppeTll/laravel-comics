@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  nav {
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+
+      li {
+        text-transform: uppercase;
+        font-weight: 700;
+
+        a {
+          padding: 10px;
+          display: block;
+        }
+
+        &.active {
+          color: rgb(12, 124, 236);
+        }
+      }
+    }
+  }
+}

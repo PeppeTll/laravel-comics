@@ -1,0 +1,63 @@
+.sectionCard {
+  background-color: rgb(28, 28, 28);
+  text-align: center;
+
+  .button {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    background-color: rgb(12, 124, 236);
+
+    h3 {
+      padding: 10px 45px;
+
+      a {
+        width: 100%;
+        color: white;
+      }
+    }
+  }
+
+  .cardWrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+    row-gap: 10px;
+
+    .seriesTag {
+      position: absolute;
+      background-color: rgb(12, 124, 236);
+      left: 0;
+      top: -25px;
+
+      h2 {
+        color: white;
+        text-transform: uppercase;
+        padding: 10px 45px;
+      }
+    }
+
+    .card {
+      width: 213px;
+      padding: 10px;
+
+      figure {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        overflow: hidden;
+
+        img {
+          width: 100%
+        }
+      }
+
+      h4 {
+        color: white;
+        padding-top: 10px;
+      }
+    }
+
+  }
+}

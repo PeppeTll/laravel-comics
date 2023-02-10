@@ -1,0 +1,37 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+
+@import '/partials/header';
+
+@import '/partials/jumbotron';
+
+@import '/partials/sectionCard';
+
+@import '/partials/linkSection';
+
+@import '/partials/detailPage';
+
+@import '/partials/footer';

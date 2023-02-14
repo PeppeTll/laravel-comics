@@ -26,6 +26,7 @@ use Illuminate\Support\Facades\Route;
 //     ],
 //   ];
 //   return view('home', [
+//! Per passare i dati alla vista possiamo usare il metodo di php compact()
 //     "team" => $team,
 //     'h1' => 'La mia prima vista con Blade',
 //     'contact' => [
@@ -44,7 +45,8 @@ use Illuminate\Support\Facades\Route;
 // ->name sostituisce l'indirizzo url con un nome stabilito da noi per poter
 // richiamare la route
 Route::get('/', 'HomeController@index')->name('home.index');
-
+// per convenzione i nomi dei controller devono essere al singolaere e in 
+// PascalCase
 Route::get('/comics', 'ComicController@index')->name('comics.index');
 
 
